@@ -20,19 +20,19 @@ const Work = () => {
                 <SEO title="Portfolio" />
 
                 <article className="portfolio">
-                    <h1>This Website <span role="img" aria-label="heart">❤️</span></h1>
+                    <h1><span role="img" aria-label="heart">❤️</span> This Website</h1>
                     <h2>A portfolio website made with React and GatsbyJS</h2>
                     <ul>
                         <li>React Hooks</li>
                         <li>GatsbyJS</li>
                         <li>Responsive neumorphic UI</li>
                     </ul>
-                    <Link to="./">Front page</Link>
+                    <Link to="/">Front page</Link>
 
                 </article>
 
                 <article className="bird-tracker">
-                    <h1>BirdTracker</h1>
+                    <h1><span role="img" aria-label="bird">🐦</span> BirdTracker</h1>
                     <h2>A bird watching app made with React.</h2>
                     <ul>
                         <li>React Hooks</li>
@@ -47,14 +47,14 @@ const Work = () => {
                 </article>
 
                 <article className="bird-sanctuary">
-                    <h1>Bird Sanctuary Website</h1>
+                    <h1><span role="img" aria-label="nature">🏞️</span> Bird Sanctuary Website</h1>
                     <h2>A website for a fictional bird sanctuary, written in HTML5 and CSS3 using flexbox.</h2>
                     <div className="portfolio-image"><BirdSanctuaryImage /></div>
                     <a href="http://exultant-vacation.surge.sh/">View Live</a>
                 </article>
 
                 <article className="thirsty-falcon">
-                    <h1>Thirsty Falcon</h1>
+                    <h1><span role="img" aria-label="beer mug">🍺</span> Thirsty Falcon</h1>
                     <h2>A website for a bar in Dunedin FL made in WordPress</h2>
                     <div className="portfolio-image"><ThirstyFalconImage /></div>
                     <a href="http://thirstyfalcon.com/">View Live</a>
