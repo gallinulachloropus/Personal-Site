@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react'
 
+//takes array of items and duration as props
+//returns a span that cycles through provided array
+
 const Ticker = (props) => {
     const [num, setNum] = useState(0)
     useEffect(() => {

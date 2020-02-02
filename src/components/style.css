@@ -29,18 +29,17 @@ body {
 h1 {
     font-size: 4.5vw;
     letter-spacing: 3px;
-    
 }
 
 h2 {
     font-size: 2vw;
     font-weight: 400;
-    
 }
 
 p {
     line-height: 150%;
 }
+
 
 a {
     color: #000;
@@ -117,8 +116,8 @@ a.email-link {
 div.portfolio-image {
     width: 40%;
     height: auto;
-    box-shadow: -2px -4px 12px #EEE, 1px 4px 12px rgba(0, 0, 0, 0.4);
-    margin: 4rem;
+    box-shadow: -2px -4px 12px #EEE, 1px 4px 12px rgba(0, 0, 0, 0.85);
+    margin: 5rem;
     margin: auto;
 }
 
@@ -136,6 +135,7 @@ article {
     box-shadow: -2px -6px 15px #EEE, 2px 6px 15px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
 }
+
 
 article>p {
     text-align: justify;
@@ -197,11 +197,9 @@ section.notfound {
     article {
         margin: 3rem 5px;
     }
-
-    h1 > span[role=img]{
+    h1>span[role=img] {
         display: block;
         float: right;
-
     }
 }
 

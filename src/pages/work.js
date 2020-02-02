@@ -8,13 +8,16 @@ import SEO from "../components/seo"
 
 //this page is a mess but I don't really ever plan on reusing this
 
-const Work = () => {
-    return (
+const Work = () => (
         <React.Fragment>
             <nav>
                 <Link to="/">
                     Return <span role="img" aria-label="home">🏠</span>
                 </Link>
+
+                <a href="https://github.com/gallinulachloropus">
+                    GitHub <span role="img" aria-label="computer">💻</span>
+                </a>
             </nav>
             <section className="portfolio">
                 <SEO title="Portfolio" />
@@ -62,6 +65,5 @@ const Work = () => {
             </section>
         </React.Fragment>
     )
-}
 
 export default Work
