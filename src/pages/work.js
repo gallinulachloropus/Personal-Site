@@ -24,11 +24,12 @@ const Work = () => (
 
                 <article className="portfolio">
                     <h1><span role="img" aria-label="heart">❤️</span> This Website</h1>
-                    <h2>A portfolio website made with React and GatsbyJS</h2>
+                    <p>A portfolio website made with React and GatsbyJS</p>
                     <ul>
-                        <li>React Hooks</li>
-                        <li>GatsbyJS</li>
-                        <li>Responsive neumorphic UI</li>
+                        <li>Utilizes React Hooks</li>
+                        <li>GatsbyJS for page generation</li>
+                        <li>Cross-browser and cross-platform compatibility</li>
+                        <li>Custom Neumorphic UI</li>
                     </ul>
                     <Link to="/">Front page</Link>
 
@@ -36,9 +37,9 @@ const Work = () => (
 
                 <article className="bird-tracker">
                     <h1><span role="img" aria-label="bird">🐦</span> BirdTracker</h1>
-                    <h2>A bird watching app made with React.</h2>
+                    <p>A bird watching app made with React.</p>
                     <ul>
-                        <li>React Hooks</li>
+                        <li>Utilizes React Hooks</li>
                         <li>Uses the WikiMedia API for images and information</li>
                         <li><code>react-router</code> for routing</li>
                         <li><code>localStorage</code> api for tracking birds seen</li>
@@ -51,14 +52,14 @@ const Work = () => (
 
                 <article className="bird-sanctuary">
                     <h1><span role="img" aria-label="nature">🏞️</span> Bird Sanctuary Website</h1>
-                    <h2>A website for a fictional bird sanctuary, written in HTML5 and CSS3 using flexbox.</h2>
+                    <p>A website for a fictional bird sanctuary, written in HTML5 and CSS3.</p>
                     <div className="portfolio-image"><BirdSanctuaryImage /></div>
                     <a href="http://exultant-vacation.surge.sh/">View Live</a>
                 </article>
 
                 <article className="thirsty-falcon">
                     <h1><span role="img" aria-label="beer mug">🍺</span> Thirsty Falcon</h1>
-                    <h2>A website for a bar in Dunedin FL made in WordPress</h2>
+                    <p>A website for a bar in Dunedin, FL made in WordPress</p>
                     <div className="portfolio-image"><ThirstyFalconImage /></div>
                     <a href="http://thirstyfalcon.com/">View Live</a>
                 </article>

@@ -9,6 +9,11 @@
         margin-left: 0;
     }
 }
+@counter-style features {
+    system: cyclic;
+    symbols: "»";
+    suffix: "  ";
+  }
 
 ::selection {
     background: rgba(0, 0, 0, 0.85);
@@ -52,8 +57,13 @@ a:hover {
 }
 
 ul {
-    list-style-type: none;
-    font-size: 0.66em;
+    list-style-type: features;
+    font-size: 0.75em;
+    margin: 0.5rem 0rem;
+}
+
+li {
+    margin: 1rem;
 }
 
 header>h1 {
@@ -116,9 +126,8 @@ a.email-link {
 div.portfolio-image {
     width: 40%;
     height: auto;
-    box-shadow: -2px -4px 12px #EEE, 1px 4px 12px rgba(0, 0, 0, 0.85);
-    margin: 5rem;
-    margin: auto;
+    box-shadow: -2px -4px 12px #EEE, 1px 4px 12px rgba(0, 0, 0, 0.75);
+    margin: 3rem auto;
 }
 
 section.portfolio {
@@ -139,6 +148,7 @@ article {
 
 article>p {
     text-align: justify;
+    margin: 2rem 1rem;
 }
 
 article>a {
