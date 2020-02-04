@@ -126,8 +126,8 @@ a.email-link {
 div.portfolio-image {
     width: 40%;
     height: auto;
-    box-shadow: -2px -4px 12px #EEE, 1px 4px 12px rgba(0, 0, 0, 0.75);
-    margin: 3rem auto;
+    box-shadow: -2px -2px 12px #EEE, 2px 3px 12px rgba(0, 0, 0, 0.66);
+    margin: 4rem auto;
 }
 
 section.portfolio {
