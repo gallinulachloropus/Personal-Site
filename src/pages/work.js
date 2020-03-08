@@ -5,6 +5,7 @@ import BirdTrackerImage from "../components/images/birdTrackerImage"
 import BirdSanctuaryImage from "../components/images/birdSanctuaryImage"
 import ThirstyFalconImage from "../components/images/thirstyFalconImage"
 import WeatherAppImage from "../components/images/weatherAppImage"
+import ChatAppImage from "../components/images/chatAppImage"
 import SEO from "../components/seo"
 
 //this page is a mess but I don't really ever plan on reusing this
@@ -22,6 +23,34 @@ const Work = () => (
         </nav>
         <section className="portfolio">
             <SEO title="Portfolio" />
+
+            <article className="chat-app">
+                <h1><span role="img" aria-label="chat">💬</span> ChatZone</h1>
+                <p>A chatroom made with WebSockets.</p>
+                <ul>
+                    <li>Uses a NodeJS backend with Express</li>
+                    <li>Uses SocketIO for WebSocket server</li>
+                    <li>React for frontend</li>
+                    <li>Custom React Hooks</li>
+                    <li>SCSS for styling</li>
+                </ul>
+                <div className="portfolio-image"><ChatAppImage /></div>
+                <a href="https://chat-zone.herokuapp.com/">Use ChatZone</a>
+
+            </article>
+
+
+            <article className="weather-app">
+                <h1><span role="img" aria-label="cloud">⛅</span> WeatherApp</h1>
+                <p>A weather app made with React.</p>
+                <ul>
+                    <li>Utilizes React Hooks</li>
+                    <li>Uses the OpenWeather API for forecast</li>
+                </ul>
+                <div className="portfolio-image"><WeatherAppImage /></div>
+                <a href="http://its-the-weather.surge.sh/">Use WeatherApp</a>
+
+            </article>
 
             <article className="portfolio">
                 <h1><span role="img" aria-label="heart">❤️</span> This Website</h1>
@@ -48,18 +77,6 @@ const Work = () => (
                 </ul>
                 <div className="portfolio-image"><BirdTrackerImage /></div>
                 <a href="http://bird-tracker.surge.sh/">Use BirdTracker</a>
-
-            </article>
-
-            <article className="weather-app">
-                <h1><span role="img" aria-label="cloud">⛅</span> WeatherApp</h1>
-                <p>A weather app made with React.</p>
-                <ul>
-                    <li>Utilizes React Hooks</li>
-                    <li>Uses the OpenWeather API for forecast</li>
-                </ul>
-                <div className="portfolio-image"><WeatherAppImage /></div>
-                <a href="http://its-the-weather.surge.sh/">Use WeatherApp</a>
 
             </article>
 
