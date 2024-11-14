@@ -16,7 +16,7 @@
 }
 
 :root {
-    --shadow: -2px -4px 15px #EEE, 2px 4px 15px rgba(0, 0, 0, 0.25);
+    --link: -2px -4px 15px #EEE, 2px 4px 15px rgba(0, 0, 0, 0.25);
 }
 
 ::selection {
@@ -95,30 +95,31 @@ nav>a, article>a {
     display: block;
     padding: 2rem;
     margin: 2rem;
-    box-shadow: var(--shadow);
+    box-shadow: var(--link);
     border-radius: 500px;
-    transition: all 160ms cubic-bezier(0.5, 0.2, 1, 1);
     color: rgba(15, 15, 15, 0.8);
     text-decoration: none;
     text-shadow: 1px 4px 6px #eee, 0 0 0 #000, 1px 4px 6px #eee;
 }
 
 nav>a:hover, article>a:hover {
+    transition: all 160ms cubic-bezier(0.5, 0.2, 1, 1);
     background: #EEE;
     color: #333;
     text-shadow: none;
 }
 
 nav>a:active, article>a:active {
+    transition: all 160ms cubic-bezier(0.5, 0.2, 1, 1);
     background: #DDD;
-    box-shadow: var(--shadow);
+    box-shadow: inset -2px -2px 10px #eee, inset 2px 2px 10px rgba(0, 0, 0, 0.15);
     text-shadow: none;
 }
 
 article {
     padding: 1rem 2.5rem;
     margin: 6rem;
-    box-shadow: -2px -4px 15px #EEE, 2px 4px 15px rgba(0, 0, 0, 0.25);
+    box-shadow: var(--link);
     border-radius: 30px;
 }
 
