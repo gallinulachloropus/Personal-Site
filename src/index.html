@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nathanparker.dev</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        window.onload = () => {
+            const link = document.getElementById('contact-link');
+            const subheader = document.querySelector('header h2');
+
+            link.addEventListener('click', e => {
+                subheader.innerText = link.href.replace('mailto:', '');
+            });
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>Nathan Parker</h1>
+        <h2>Software Engineer</h2>
+    </header>
+    <div>
+        <div>
+            <nav>
+                <a href="work.html">
+                    Portfolio <span role="img" aria-label="Work">📂 </span>
+                </a>
+                <a href="https://drive.google.com/file/d/1it_ZWardWOUpEXxkTClzYvVFu_qgjin4/view?usp=sharing">
+                    Resume <span role="img" aria-label="Resume">📄 </span>
+                </a>
+                <a id="contact-link" href="mailto:n.parker31@outlook.com">
+                    Contact <span role="img" aria-label="E-Mail">📧 </span>
+                </a>
+            </nav>
+        </div>
+    </div>
+</body>
+
+</html>
