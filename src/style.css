@@ -139,7 +139,21 @@ section.notfound {
     border-radius: 10px;
 }
 
+.demo-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.demo-image a {
+    flex: 1 1 280px;
+    max-width: 400px;
+}
+
 .demo-image img {
+    display: block;
+    width: 100%;
     height: auto;
 }
 
